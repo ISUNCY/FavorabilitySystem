@@ -320,6 +320,15 @@ CgDisplayWindow.prototype.showFullScreenImage = function(imageName) {
             } else {
                 console.error("CG not found: ", name);
             }
+        } else if (command === 'ShowFullScreenCG') {
+            let name = args[0];
+            let cgData = $gameSystem.getCG(name);
+            if (cgData) {
+                SceneManager._scene._cgWindow.showFullScreenImage(cgData.image);
+                console.log("Showing full screen CG: ", cgData.name);
+            } else {
+                console.error("CG not found: ", name);
+            }
         }
     }
 
