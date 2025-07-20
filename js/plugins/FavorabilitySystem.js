@@ -32,7 +32,7 @@
     Window_Base.prototype.drawActorFavorability = function(actor, x, y, width) {
         const favorability = actor.favorability() || 0;
         this.changeTextColor(this.textColor(27));
-        const text  = '好感度: ' + favorability;
+        const text  = '好感度 ' + favorability;
         this.drawText(text, x, y, width);
         this.resetTextColor();
     };

@@ -6,5 +6,6 @@ var $plugins =
 {"name":"MadeWithMv","status":false,"description":"Show a Splash Screen \"Made with MV\" and/or a Custom Splash Screen before going to main screen.","parameters":{"Show Made With MV":"true","Made with MV Image":"MadeWithMv","Show Custom Splash":"false","Custom Image":"","Fade Out Time":"120","Fade In Time":"120","Wait Time":"160"}},
 {"name":"ItemBook","status":true,"description":"Displays detailed statuses of items.","parameters":{"Unknown Data":"??????","Price Text":"Price","Equip Text":"Equip","Type Text":"Type"}},
 {"name":"FavorabilitySystem","status":true,"description":"好感度系统","parameters":{}},
-{"name":"GainCommand","status":true,"description":"提供获取各种东西（物品，技能，武器，护甲）的插件命令","parameters":{}}
+{"name":"GainCommand","status":true,"description":"提供获取各种东西（物品，技能，武器，护甲）的插件命令","parameters":{}},
+{"name":"CGSystem","status":true,"description":"CG系统","parameters":{}}
 ];
